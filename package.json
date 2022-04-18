@@ -1,0 +1,35 @@
+{
+  "name": "@lily-slvr/discordjs-framework",
+  "version": "1.0.0",
+  "description": "a framework discord.js bots",
+  "main": "./build/bot.js",
+  "type": "module",
+  "scripts": {
+    "start:watch": "nodemon",
+    "start:dev": "node --experimental-specifier-resolution=node --loader ts-node/esm ./src/server.ts",
+    "build": "rimraf ./build && tsc",
+    "start": "node build/server.js"
+  },
+  "keywords": [],
+  "private": true,
+  "author": "lily.slvr",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@tsconfig/node16-strictest-esm": "^1.0.0",
+    "@types/node": "^16.4.13",
+    "@types/randomstring": "^1.1.7",
+    "nodemon": "^2.0.12",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.3",
+    "erlpack": "discord/erlpack",
+    "utf-8-validate": "^5.0.5",
+    "zlib-sync": "^0.1.7"
+  }
+}
