@@ -1,5 +1,5 @@
 {
-  "name": "@lily-slvr/discordjs-framework",
+  "name": "@transplace/discord-framework",
   "version": "1.0.0",
   "description": "a framework discord.js bots",
   "main": "./build/bot.js",
@@ -11,9 +11,8 @@
     "start": "node build/server.js"
   },
   "keywords": [],
-  "private": true,
   "author": "lily.slvr",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@tsconfig/node16-strictest-esm": "^1.0.0",
     "@types/node": "^16.4.13",
