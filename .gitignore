@@ -1,0 +1,11 @@
+node_modules/
+build/*
+config/*
+package-lock.json
+yarn.lock
+notes.txt
+token.env
+oauth.env
+deploy notes.txt
+yarn-error.log
+
