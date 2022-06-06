@@ -13,10 +13,11 @@ const client = new Client({
 const commands = [
   "ping",  // Ping a role
 //  "role",  // Add yourself to a self-assignable role
-//  "createRole",  // Create a self-assignable role
+//  "create-role",  // Create a self-assignable role
+//  "destroy-role",  // Destroy a self-assignable role
 //  "grant",  // Grant someone a permission (to ping a role or to assign a role)
 //  "revoke",  // Revoke someone's permission (to ping a role or to assign a role)
-//  "replyPing",  // Set if you want to always be pinged when someone replies to you (ignores self & *does not* reply to a bot reply (provide message link maybe?))
+  "reply-ping",  // Set if you want to always be pinged when someone replies to you (ignores self & *does not* reply to a bot reply (provide message link maybe?))
 ];
 
 const commandManager = new CommandManager(client);
